@@ -60,4 +60,11 @@ Page({
       }
     })
   },
+  // 测试mobilenet
+  doTestMobilenet: function () {
+    // 跳转到mobilenet页面
+    wx.navigateTo({
+      url: 'mobilenet',
+    })
+  }
 })

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/index/photo"
+    "pages/index/photo",
+    "pages/index/mobilenet"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,5 +16,6 @@
     "connectSocket": 60000,
     "uploadFile": 60000,
     "downloadFile": 60000
-  }
+  },
+  "sitemapLocation": "sitemap94.json"
 }

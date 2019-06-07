@@ -12,6 +12,7 @@ function webSafe64(base64) {
 // 获取图像RGB数据
 var getImageBase64 = function (canvasId, imgUrl, callback, imgWidth, imgHeight) {
   console.log("entering getBase64Image");
+
   const ctx = wx.createCanvasContext(canvasId);
   ctx.drawImage(imgUrl, 0, 0, imgWidth || 299, imgHeight || 299);
   ctx.draw(false, () => {
